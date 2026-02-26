@@ -35,7 +35,7 @@ require (
 	github.com/gospider007/http3 v0.0.0-20260226062044-1b20f82cc4ed // indirect
 	github.com/gospider007/ja3 v0.0.0-20260226061946-1758ed04ec7f // indirect
 	github.com/gospider007/kinds v0.0.0-20260211060834-06a10e2431d8 // indirect
-	github.com/gospider007/netx v0.0.0-20260226062153-2a5b47032314 // indirect
+	github.com/gospider007/netx v0.0.0-20260226071412-851a8ceb3d7b // indirect
 	github.com/gospider007/tools v0.0.0-20260226061734-3c580e5bfd25 // indirect
 	github.com/gospider007/websocket v0.0.0-20260226062052-c8c89c462b43 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
