@@ -466,7 +466,7 @@ func (obj *Client) Search(txts ...string) *Node {
 	for _, txt := range txts {
 		allTxt += txt
 		nodes := obj.Searchs(allTxt)
-		if len(nodes) > 0 {
+		if len(nodes) > 0 && (nodes[0].ProvinceSize > 0 || nodes[0].SubProvinceSize > 0) {
 			if mustNode == nil {
 				mustNode = nodes[0]
 			} else {
